@@ -1,0 +1,116 @@
+.img_logo{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu li a{
+    text-decoration:none;
+    color: black;
+    padding: 20px 30px 20px 30px;
+    transition: 0.8s all;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    padding: 50px 0px 20px 0;
+    
+}
+
+.menu li a:hover{
+    color: black;
+    background-color: rgba(165, 42, 42, 0.466);
+}
+
+nav{
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.body{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 800;
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin:0 auto;
+
+}
+
+header ul{
+    list-style: none;
+    padding: 0px;
+    background-image: linear-gradient(red);
+    width: 80%;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 18px;
+}
+.banner_sc{
+    width: 100%;
+
+}
+
+.featured{
+padding: 0px 10px;
+background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+}
+
+.fp_video{
+    padding: 1em;
+}
+
+.ft_receta{
+    width: 38%;
+    font-size: 0.9em;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 0px;
+    vertical-align: top;
+}
+
+.fp_video, .ft_receta{
+    display: inline-block;
+}
+
+.ft_receta h2{
+    border-bottom: solid thin; color:rgb(143, 34, 34);
+}
+
+.boton_container a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.boton_container{
+    text-align: center;
+    background-color: black;
+    
+    
+}
+
+.boton_container:hover{
+    background-color: grey ;
+}
+
+.boton{
+    padding: 15px;
+}
+
+.articulo{
+    padding: 30px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+ margin: 20px 0;
+}
+
+.art_image, .art_cont{
+    width: 100%;
+    text-align: center;
+}
